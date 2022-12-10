@@ -1,3 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar {
+  display: none;
+  width: 0;
+}
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +25,32 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.profileName {
+  font-family: 'Roboto', sans-serif;
+}
+
+.button1 {
+  text-decoration: none;
+  font-size: 14px;
+  color: #fff;
+  font-weight: 600;
+  background: linear-gradient(#ff21bc, #b21783);
+  padding: 5px 15px;
+  border-radius: 10px;
+  margin-right: 10px;
+  box-shadow: inset 2px 2px 2px rgba(255, 255, 255, 0.4), inset -5px -10px 10px #b1147d;
+  cursor: pointer;
+}
+
+.button2 {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+  color: #b1d0d5;
+  border: 2px solid #443b78;
+  border-radius: 10px;
+  padding: 3px 15px;
+  margin: 0 5px;
 }
