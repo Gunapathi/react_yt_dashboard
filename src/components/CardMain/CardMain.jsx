@@ -10,7 +10,7 @@ const CardMain = ({ imgSrc, title, hearts }) => {
 				alt=""
 			/>
 			<div className="p-4">
-				<div className="card_main_name flex items-center justify-between align-middle mb-4 relative block">
+				<div className="card_main_name flex items-center justify-between align-middle mb-4 relative">
 					<h2 className="text-xl font-bold text-textColorSec">
 						{title}
 					</h2>
@@ -21,7 +21,7 @@ const CardMain = ({ imgSrc, title, hearts }) => {
 						</span>
 					</div>
 				</div>
-				<div className="stats flex items-center text-center justify-between mb-4 relative block">
+				<div className="stats flex items-center text-center justify-between mb-4 relative">
 					<p className="text-[14px] font-bold text-textColorSec">
 						Current Bid{" "}
 						<span className="block text-redPointer">1.2 ETH</span>
