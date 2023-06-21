@@ -49,9 +49,9 @@ const Menu = () => {
 
 const Icon = ({ icon }) => (
 	<li className="relative my-[20px] text-textColor w-full text-center group cursor-pointer">
-		<a className="text-[24px] transition-all duration-300 before:absolute before:top-[5px] before:-left-[10px] group-hover:before:w-[20px] before:h-[20px] before:bg-textHover inline-block before:rounded-full group-hover:text-textHover group-[.active]:before:w-[20px] group-[.active]:text-textHover">
+		<p className="text-[24px] transition-all duration-300 before:absolute before:top-[5px] before:-left-[10px] group-hover:before:w-[20px] before:h-[20px] before:bg-textHover inline-block before:rounded-full group-hover:text-textHover group-[.active]:before:w-[20px] group-[.active]:text-textHover">
 			{icon}
-		</a>
+		</p>
 	</li>
 );
 

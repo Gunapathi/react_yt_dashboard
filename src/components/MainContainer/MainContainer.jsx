@@ -30,12 +30,12 @@ const MainContainer = () => {
 						</p>
 						<div className="bid flex items-center my-1">
 							<a
-								href="#"
+								href="/"
 								className="button1">
 								BID NOW
 							</a>
 							<p className="text-textHoverSec text-lg my-1 ml-2 block">
-								Ending In{" "}
+								Ending In
 								<span className="block text-textHover font-semibold">
 									2d:15h:20m
 								</span>
@@ -50,29 +50,29 @@ const MainContainer = () => {
 								Feed
 							</h2>
 							<a
-								href="#"
+								href="/"
 								className="button2">
 								Popular
 							</a>
 						</div>
 						<div className="filter_buttons">
 							<a
-								href="#"
+								href="/"
 								className="button1">
 								All
 							</a>
 							<a
-								href="#"
+								href="/"
 								className="button2">
 								Illustration
 							</a>
 							<a
-								href="#"
+								href="/"
 								className="button2">
 								Art
 							</a>
 							<a
-								href="#"
+								href="/"
 								className="button2">
 								Games
 							</a>

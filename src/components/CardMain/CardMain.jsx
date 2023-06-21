@@ -23,11 +23,11 @@ const CardMain = ({ imgSrc, title, hearts }) => {
 				</div>
 				<div className="stats flex items-center text-center justify-between mb-4 relative">
 					<p className="text-[14px] font-bold text-textColorSec">
-						Current Bid{" "}
+						Current Bid
 						<span className="block text-redPointer">1.2 ETH</span>
 					</p>
 					<p className="text-[14px] font-bold text-textColorSec">
-						Ending Bid{" "}
+						Ending Bid
 						<span className="block text-redPointer">
 							1D : 12H : 10M
 						</span>
@@ -36,12 +36,12 @@ const CardMain = ({ imgSrc, title, hearts }) => {
 				</div>
 				<div className="card_button flex items-center justify-between">
 					<a
-						href="#"
+						href="/"
 						className="button1 mr-[0px!important]">
 						Place a Bid
 					</a>
 					<a
-						href="#"
+						href="/"
 						className="m-[0px!important] border button2">
 						History
 					</a>
